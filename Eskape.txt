@@ -1,0 +1,10 @@
+#comentarios programa de suma de dos numeros
+code suma []{
+  num= 5
+  num2=8
+  res= num+num2
+  si[res==8]{
+    print["Hola Eskape %v Hi Eskape","Hello Eskape %v ",res]
+  }
+}
+#otro comentario
