@@ -23,9 +23,7 @@ public class Compilador
 
     public void leer()
     {
-        String archivo="C:\\Users\\Israel\\Desktop\\java\\Eskape.txt";
-//String archivo = "C:\\Users\\Israel\\Documents\\NetBeansProjects\\AutomatasCompilador\\src\\automatascompilador\\Eskape.txt";
-
+        String archivo="C:\\Users\\Israel\\Desktop\\Compilador\\Eskape.txt";
         try{
             File f;
             FileReader leerArchivo;
@@ -134,7 +132,6 @@ public class Compilador
             indice=indice+1;
         }
     }
-
     public static void main(String [] args){
         Compilador equipo= new Compilador();
     }
